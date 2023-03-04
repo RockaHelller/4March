@@ -1,0 +1,82 @@
+.item {
+  display: inline-block;
+}
+
+.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  top: 0px;
+  left: 0px;
+}
+
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  left: 200px;
+}
+
+.box3 {
+  width: 100px;
+  height: 100px;
+  background-color: brown;
+  top: 100px;
+  left: 100px;
+}
+
+.box4 {
+  width: 100px;
+  height: 100px;
+  background-color: thistle;
+  top: 200px;
+}
+
+.box5 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  top: 200px;
+  left: 200px;
+}
+
+.drop-div {
+  background-color: aqua;
+  height: 400px;
+  width: 400px;
+  float: right;
+  position: relative;
+}
+
+.box-icon {
+  width: 300px;
+  height: 240px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-icon i {
+  font-size: 40px;
+}
+
+img {
+  width: 200px;
+  height: 300px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}/*# sourceMappingURL=style.css.map */
